@@ -1,4 +1,4 @@
-package com.realdolmen.samples.angelocarly.solid.generics;
+package com.realdolmen.samples.angelocarly.generics;
 
 public class GenericsExample {
 
