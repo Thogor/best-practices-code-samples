@@ -1,4 +1,4 @@
-package com.realdolmen.samples.janolaerts.factory;
+package com.realdolmen.samples.johndoe.factory;
 
 public interface Service {
 }

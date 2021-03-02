@@ -1,4 +1,4 @@
-package com.realdolmen.samples.janolaerts.immutable;
+package com.realdolmen.samples.johndoe.immutable;
 
 public class Complex { // immutable class
 

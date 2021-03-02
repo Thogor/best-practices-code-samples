@@ -1,4 +1,4 @@
-package com.realdolmen.samples.johndoe.lambdas;
+package com.realdolmen.samples.johndoe.lambdas_and_streams;
 
 import java.util.function.DoubleBinaryOperator;
 

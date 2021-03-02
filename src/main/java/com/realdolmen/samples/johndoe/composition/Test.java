@@ -1,4 +1,4 @@
-package com.realdolmen.samples.janolaerts.composition;
+package com.realdolmen.samples.johndoe.composition;
 
 import java.util.List;
 

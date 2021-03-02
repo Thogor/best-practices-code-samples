@@ -1,4 +1,4 @@
-package com.realdolmen.samples.janolaerts.comparable;
+package com.realdolmen.samples.johndoe.comparable;
 
 import java.util.Comparator;
 

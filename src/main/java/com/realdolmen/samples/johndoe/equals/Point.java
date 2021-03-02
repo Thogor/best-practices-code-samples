@@ -1,4 +1,4 @@
-package com.realdolmen.samples.janolaerts.equals;
+package com.realdolmen.samples.johndoe.equals;
 
 public class Point implements Cloneable {
 

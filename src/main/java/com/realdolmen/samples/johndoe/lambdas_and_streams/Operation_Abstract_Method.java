@@ -1,4 +1,4 @@
-package com.realdolmen.samples.johndoe.lambdas;
+package com.realdolmen.samples.johndoe.lambdas_and_streams;
 
 public enum Operation_Abstract_Method {
 
