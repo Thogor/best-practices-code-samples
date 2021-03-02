@@ -32,10 +32,14 @@ public class AdvancedPetSpliterator implements Spliterator<Pet> {
         return offset < lastRowToRetrieve;
     }
 
+    //De spliterator wordt opgesplitst in 2 spliterators.
+    //Opgepast! 1 van deze 2 spliterators mag niet groter zijn dan de max toegelaten grootte
+    //In dit geval is de max toegelaten grootte is in dit geval (WINDOW_SIZE * 4)
     @Override
     public Spliterator<Pet> trySplit() {
         if (lastRowToRetrieve > offset + (WINDOW_SIZE * 4)) {
-            offset = lastRowToRetrieve / 2;
+            offset = lastRowToRetrieve - (WINDOW_SIZE * 4);
+            System.out.println("Split > offset: " + offset + ", last: " + lastRowToRetrieve);
             System.out.println("Split > offset: " + 0 + ", last: " + offset);
             return new AdvancedPetSpliterator(petRepository, 0, offset);
         } else {
